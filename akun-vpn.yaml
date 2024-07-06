@@ -10,3 +10,14 @@ proxies:
     grpc-opts: 
       grpc-service-name: trojan-service
     udp: true
+- name: iap2
+    server: df.game.naver.com
+    port: 443
+    type: trojan
+    password: PxP0t1LRD5OpkmraUIUzNw
+    skip-cert-verify: true
+    sni: id04bz.cobeksawit.biz.id
+    network: grpc
+    grpc-opts: 
+      grpc-service-name: trojan-service
+    udp: true
